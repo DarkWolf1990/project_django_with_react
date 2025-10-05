@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "project-django-with-react"
+version = "0.1.0"
+description = ""
+authors = ["darkwolf1990 <whitejaguar08@gmail.com>"]
+readme = "README.md"
+packages = [{include = "project_django_with_react"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+django = ">=4.2,<5.0"
+psycopg2 = "^2.9.10"
+psycopg2-binary = "^2.9.10"
+djangorestframework = "^3.16.1"
+django-filter = "<23.0"
+djangorestframework-simplejwt = "^5.5.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
