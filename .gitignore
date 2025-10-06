@@ -34,8 +34,7 @@ __pycache__/
 *.pot
 *.egg-info/
 .Python
-build/
-dist/
+
 
 # Virtual environment
 env/
