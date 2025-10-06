@@ -23,3 +23,46 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+# PyCharm-specific files
+.idea/
+*.iml
+
+# Python-specific files
+*.pyc
+__pycache__/
+*.log
+*.pot
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environment
+env/
+venv/
+
+# Django-specific files
+db.sqlite3
+local_settings.py
+media/  # If user-uploaded media is stored locally and not in version control
+static_root/ # If collectstatic outputs to a local directory
+migrations/  # Excluding migration files might be desired in some cases, but generally, they are version controlled.
+             # If you choose to ignore them, uncomment the following line:
+             # */migrations/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Pipenv files (if used)
+Pipfile.lock # Consider including this if collaborating and ensuring dependency consistency
+
+# Other common temporary files
+*~
+*.swp
+*.bak
+.env # Environment variables file
